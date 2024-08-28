@@ -35,7 +35,7 @@ export default reactive({
 
     removeItem(id){
 
-        // this.childs = this.
+        this.childs = this.childs.filter(item => item.id !== id)
 
     }
 
