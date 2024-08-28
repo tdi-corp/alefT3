@@ -59,4 +59,18 @@ body {
 }
 
 
+.customBtn{
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: 2px solid #01A7FD;
+}
 
+.customBtn.flat{
+  color: #fff;
+  background-color: #01A7FD;
+}
+
+.customBtn.outline{
+  color: #01A7FD;
+  background-color: #fff;
+}

@@ -39,7 +39,7 @@
                     </h1>
                 </div>            
                 <div>
-                    <button @click="addChild(name, age)">
+                    <button class="customBtn outline" @click="addChild(name, age)">
                         Добавить ребенка
                     </button>
                 </div>
@@ -72,7 +72,7 @@
                 <input type="text" v-model="store.addChildPerson.age"/>
             </div>
     
-            <button @click="store.addChild">Сохранить</button>
+            <button class="customBtn flat" @click="store.addChild">Сохранить</button>
         </div>
 
        
