@@ -4,9 +4,8 @@
   
   <div class="header">
 
-    <div style="width: 100px">
-      logo  
-    </div>
+      <img src="@/assets/logo.svg" width="93px"> 
+    
     <div class="header_menu" style="width: 100%;">
      
         <ul>
@@ -35,6 +34,7 @@
     align-items: center;
     border-bottom: 1px solid rgba(17, 17, 17, 0.1);
     height: 76px;
+    padding: 0 40px;
     margin-bottom: 33px;
   }
 

@@ -62,15 +62,37 @@ body {
 .customBtn{
   padding: 10px 20px;
   border-radius: 100px;
-  border: 2px solid #01A7FD;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 25px;
+}
+.customBtn:hover{
+  cursor: pointer;
 }
 
 .customBtn.flat{
   color: #fff;
   background-color: #01A7FD;
+  border: 2px solid #01A7FD;
 }
 
 .customBtn.outline{
   color: #01A7FD;
   background-color: #fff;
+  border: 2px solid #01A7FD;
+}
+
+.customBtn.text{
+  color: #01A7FD;
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.customChip {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #F1F1F1;
 }
