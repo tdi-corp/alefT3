@@ -1,0 +1,62 @@
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+
+a {
+  text-decoration: inherit;
+  color: rgba(17, 17, 17, 0.48)
+}
+
+ol, ul {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: #000;
+  background: #fff;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    "Montserrat",
+    sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+}
+
+
+.container {
+  max-width: 616px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: left;
+
+}
+
+
+
+.h1 > h1 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.block {
+  margin-bottom: 33px;
+}
+
+
+
